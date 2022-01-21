@@ -1,5 +1,5 @@
 import express from 'express';
-import { area } from './math.mjs';
+import * as math from './math.mjs';
 
 const app = express();
 const port = 3000;
@@ -10,5 +10,5 @@ app.get('/', function (req, res) {
 
 app.listen(port, function () {
     console.log(`Example app listening on port ${port}!`)
-    console.log(area(4))
+    console.log("Example calculation using custom library: 4 * 4 = \n" + math.area(4))
 });
