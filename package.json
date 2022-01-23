@@ -1,0 +1,22 @@
+{
+  "name": "javascript-express.js-app-server",
+  "version": "0.0.1",
+  "description": "Express example",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noor-latif/javascript-express.js-app-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noor-latif/javascript-express.js-app-server/issues"
+  },
+  "homepage": "https://github.com/noor-latif/javascript-express.js-app-server#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
