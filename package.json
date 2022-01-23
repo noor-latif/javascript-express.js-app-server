@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/noor-latif/javascript-express.js-app-server#readme",
   "dependencies": {
+    "eslint-config-standard": "^16.0.3",
     "express": "^4.17.2"
   }
 }
