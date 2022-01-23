@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
 });
 
 app.listen(port, function () {
-    console.log(`Example app listening on port ${port}!`)
+    console.log(`Example app listening on http://localhost:${port}/`)
     console.log("Example calculation using custom library: 4 * 4 = \n" + math.area(4))
 });
